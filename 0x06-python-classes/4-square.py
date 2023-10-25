@@ -1,6 +1,19 @@
 #!/usr/bin/python3
+"""Defines a 'Square' class with a private instance attribute."""
+
+
 class Square:
+    """Definition of 'Square'"""
     def __init__(self, size=0):
+        """Inits Square with a size integer.
+
+        Args:
+            Size: An integer size of the square.
+
+        Raises:
+            TypeError: The size argument is not an integer.
+            ValueError: The size argument is negative.
+        """
         if type(size) is not int:
             raise TypeError("size must be an integer")
         elif size < 0:
@@ -8,10 +21,16 @@ class Square:
         self.__size = size
 
     def area(self):
+        """Computes the area of the square."""
         return self.__size ** 2
 
     @property
     def size(self):
+        """Gets the size of the square
+
+        Returns:
+            The size attribute of the square
+        """
         return self.__size
 
     @size.setter
