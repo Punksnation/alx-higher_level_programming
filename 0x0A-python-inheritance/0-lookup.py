@@ -1,9 +1,14 @@
 #!/usr/bin/python3
-"""
-Function thaat returns the list of available attributes
-and methods of an object
-"""
+"""Defines a lookup function."""
 
 
 def lookup(obj):
+    """Gets all attributes and methods of an object.
+
+    Args:
+        obj: Object to retrieve attributes and methods of.
+
+    Returns:
+        List of attributes and methods.
+    """
     return dir(obj)
