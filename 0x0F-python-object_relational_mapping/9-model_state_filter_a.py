@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-# Lists all State object with the letter 'a'.
+"""
+Lists all State object with the letter 'a'.
+"""
+
 import sys
 from model_state import Base, State
 from sqlalchemy import create_engine
