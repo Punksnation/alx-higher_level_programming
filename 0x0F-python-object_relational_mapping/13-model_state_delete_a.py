@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-# Deletes State objects with an 'a'.
+"""
+Deletes State objects with an 'a'.
+"""
+
 import sys
 from model_state import Base, State
 from sqlalchemy import create_engine

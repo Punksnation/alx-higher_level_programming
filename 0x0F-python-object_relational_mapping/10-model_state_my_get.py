@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-# Lists State objects by name.
+"""
+Lists State objects by name.
+"""
+
 import sys
 from model_state import Base, State
 from sqlalchemy import create_engine

@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-# Lists all City objects.
+"""
+Lists all City objects.
+"""
+
 import sys
 from model_state import Base, State
 from model_city import City

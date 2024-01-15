@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-# Updates a State objects.
+"""
+Updates a State objects.
+"""
+
 import sys
 from model_state import Base, State
 from sqlalchemy import create_engine
